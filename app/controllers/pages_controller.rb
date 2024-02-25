@@ -1,7 +1,8 @@
-class PagesController < ApplicationController
-  def home
-  end
+# frozen_string_literal: true
 
-  def index
-  end
+# This conrtroller for root path
+class PagesController < ApplicationController
+  def home; end
+
+  def index; end
 end
